@@ -875,24 +875,6 @@ FullBright.Size = UDim2.new(0, 55, 0, 55)
 FullBright.Image = "https://cdn.discordapp.com/avatars/561326265454559242/6c86891585a9fbd6c1ad72163e90ea55.webp"
 FullBright.ImageTransparency = 0
 
-AirCannon.Name = "AirCannon"
-AirCannon.Parent = EventFrame
-AirCannon.BackgroundColor3 = Color3.new(0.266667, 0.266667, 0.278431)
-AirCannon.BorderColor3 = Color3.new(1, 1, 1)
-AirCannon.Position = UDim2.new(0.510688505, 0, 0.810607493, 0)
-AirCannon.Size = UDim2.new(0, 55, 0, 55)
-AirCannon.Image = "https://cdn.discordapp.com/avatars/561326265454559242/6c86891585a9fbd6c1ad72163e90ea55.webp"
-AirCannon.ImageTransparency = 0
-
-Slicer.Name = "Slicer"
-Slicer.Parent = EventFrame
-Slicer.BackgroundColor3 = Color3.new(0.266667, 0.266667, 0.278431)
-Slicer.BorderColor3 = Color3.new(1, 1, 1)
-Slicer.Position = UDim2.new(0.630688505, 0, 0.810607493, 0)
-Slicer.Size = UDim2.new(0, 55, 0, 55)
-Slicer.Image = "https://cdn.discordapp.com/avatars/278351300540760066/fcc1f8f26a6a1c9db1cf8c1a1fd06a22.webp"
-Slicer.ImageTransparency = 0
-
 MegaBossFrame.Name = "MegaBossFrame"
 MegaBossFrame.Parent = MainFrame
 MegaBossFrame.BackgroundColor3 = Color3.new(0.266667, 0.266667, 0.278431)
@@ -1188,14 +1170,6 @@ CreditText.TextWrapped = true
 
 InfYield.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/eN1LiwgH", true))()
-end)
-
-AirCannon.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
-Slicer.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/LRF3zcEX", true))()
 end)
 
 M1.MouseButton1Click:Connect(function()
