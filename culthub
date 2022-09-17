@@ -1,3 +1,5 @@
+--Created by cult
+
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "CultHub", Text = "Successfully Launched"})
 
 local hub = Instance.new("ScreenGui")
