@@ -1178,6 +1178,7 @@ end)
 
 Slicer.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/eN1LiwgH", true))()
+end)
 
 AirCannon.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/eN1LiwgH", true))()
