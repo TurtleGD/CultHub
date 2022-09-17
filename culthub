@@ -872,7 +872,7 @@ AirCannon.BackgroundColor3 = Color3.new(0.266667, 0.266667, 0.278431)
 AirCannon.BorderColor3 = Color3.new(1, 1, 1)
 AirCannon.Position = UDim2.new(0.400000006, 0, 0.81099999, 0)
 AirCannon.Size = UDim2.new(0, 55, 0, 55)
-AirCannon.Image = "https://cdn.discordapp.com/avatars/561326265454559242/6c86891585a9fbd6c1ad72163e90ea55.webp"
+AirCannon.Image = "http://www.roblox.com/asset/?id=7903525711"
 AirCannon.ImageTransparency = 0
 
 MegaBossFrame.Name = "MegaBossFrame"
@@ -1177,7 +1177,7 @@ M1.MouseButton1Click:Connect(function()
 end)
 
 Slicer.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/eN1LiwgH", true))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/LRF3zcEX", true))()
 end)
 
 AirCannon.MouseButton1Click:Connect(function()
