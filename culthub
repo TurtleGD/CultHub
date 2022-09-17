@@ -846,7 +846,7 @@ InfYield.BorderColor3 = Color3.new(1, 1, 1)
 InfYield.Position = UDim2.new(0.0550688505, 0, 0.810607493, 0)
 InfYield.Size = UDim2.new(0, 55, 0, 55)
 InfYield.Image = "http://www.roblox.com/asset/?id=7903531742"
-InfYield.ImageTransparency = 0.5
+InfYield.ImageTransparency = 0
 
 M1.Name = "M1"
 M1.Parent = EventFrame
@@ -855,7 +855,7 @@ M1.BorderColor3 = Color3.new(1, 1, 1)
 M1.Position = UDim2.new(0.170387268, 0, 0.810607493, 0)
 M1.Size = UDim2.new(0, 55, 0, 55)
 M1.Image = "http://www.roblox.com/asset/?id=10100279448"
-M1.ImageTransparency = 0.5
+M1.ImageTransparency = 0
 
 Shields.Name = "Shields"
 Shields.Parent = EventFrame
@@ -864,7 +864,7 @@ Shields.BorderColor3 = Color3.new(1, 1, 1)
 Shields.Position = UDim2.new(0.284999996, 0, 0.81099999, 0)
 Shields.Size = UDim2.new(0, 55, 0, 55)
 Shields.Image = "http://www.roblox.com/asset/?id=6942480728"
-Shields.ImageTransparency = 0.5
+Shields.ImageTransparency = 0
 
 FullBright.Name = "FullBright"
 FullBright.Parent = EventFrame
@@ -873,7 +873,25 @@ FullBright.BorderColor3 = Color3.new(1, 1, 1)
 FullBright.Position = UDim2.new(0.400000006, 0, 0.81099999, 0)
 FullBright.Size = UDim2.new(0, 55, 0, 55)
 FullBright.Image = "http://www.roblox.com/asset/?id=7903525711"
-FullBright.ImageTransparency = 0.5
+FullBright.ImageTransparency = 0
+
+AirCannon.Name = "AirCannon"
+AirCannon.Parent = EventFrame
+AirCannon.BackgroundColor3 = Color3.new(0.266667, 0.266667, 0.278431)
+AirCannon.BorderColor3 = Color3.new(1, 1, 1)
+AirCannon.Position = UDim2.new(0.510688505, 0, 0.810607493, 0)
+AirCannon.Size = UDim2.new(0, 55, 0, 55)
+AirCannon.Image = "https://cdn.discordapp.com/avatars/561326265454559242/6c86891585a9fbd6c1ad72163e90ea55.webp"
+AirCannon.ImageTransparency = 0
+
+Slicer.Name = "Slicer"
+Slicer.Parent = EventFrame
+Slicer.BackgroundColor3 = Color3.new(0.266667, 0.266667, 0.278431)
+Slicer.BorderColor3 = Color3.new(1, 1, 1)
+Slicer.Position = UDim2.new(0.630688505, 0, 0.810607493, 0)
+Slicer.Size = UDim2.new(0, 55, 0, 55)
+Slicer.Image = "https://cdn.discordapp.com/avatars/278351300540760066/fcc1f8f26a6a1c9db1cf8c1a1fd06a22.webp"
+Slicer.ImageTransparency = 0
 
 MegaBossFrame.Name = "MegaBossFrame"
 MegaBossFrame.Parent = MainFrame
@@ -1169,7 +1187,15 @@ CreditText.TextWrapped = true
 --Scripts
 
 InfYield.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/eN1LiwgH", true))()
+end)
+
+AirCannon.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Slicer.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/LRF3zcEX", true))()
 end)
 
 M1.MouseButton1Click:Connect(function()
