@@ -1174,6 +1174,7 @@ end)
 
 M1.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/8afw2get", true))()
+end)
 
 Slicer.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/eN1LiwgH", true))()
