@@ -61,7 +61,6 @@ local _15E = Instance.new("TextButton")
 local InfYield = Instance.new("ImageButton")
 local M1 = Instance.new("ImageButton")
 local Slicer = Instance.new("ImageButton")
-local Golems = Instance.new("ImageButton")
 local AirCannon = Instance.new("ImageButton")
 local MegaBossFrame = Instance.new("Frame")
 local Gilgamesh = Instance.new("TextButton")
@@ -867,22 +866,13 @@ Slicer.Size = UDim2.new(0, 55, 0, 55)
 Slicer.Image = "http://www.roblox.com/asset/?id=6942480728"
 Slicer.ImageTransparency = 0
 
-Golems.Name = "Golems"
-Golems.Parent = EventFrame
-Golems.BackgroundColor3 = Color3.new(0.266667, 0.266667, 0.278431)
-Golems.BorderColor3 = Color3.new(1, 1, 1)
-Golems.Position = UDim2.new(0.400000006, 0, 0.81099999, 0)
-Golems.Size = UDim2.new(0, 55, 0, 55)
-Golems.Image = "http://www.roblox.com/asset/?id=7903525711"
-Golems.ImageTransparency = 0
-
 AirCannon.Name = "AirCannon"
 AirCannon.Parent = EventFrame
 AirCannon.BackgroundColor3 = Color3.new(0.266667, 0.266667, 0.278431)
 AirCannon.BorderColor3 = Color3.new(1, 1, 1)
-AirCannon.Position = UDim2.new(0.510000006, 0, 0.81099999, 0)
+AirCannon.Position = UDim2.new(0.400000006, 0, 0.81099999, 0)
 AirCannon.Size = UDim2.new(0, 55, 0, 55)
-AirCannon.Image = "http://www.roblox.com/asset/?id=10039646872"
+AirCannon.Image = "http://www.roblox.com/asset/?id=7903525711"
 AirCannon.ImageTransparency = 0
 
 MegaBossFrame.Name = "MegaBossFrame"
@@ -1188,10 +1178,6 @@ end)
 
 Slicer.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/LRF3zcEX", true))()
-end)
-
-Golems.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/r5uNnTG9", true))()
 end)
 
 AirCannon.MouseButton1Click:Connect(function()
