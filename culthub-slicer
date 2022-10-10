@@ -1624,7 +1624,7 @@ Creus.MouseButton1Click:Connect(function()
 		local args = {
 			[1] = "sow",
 			[2] = {
-				[1] = workspace.TrainingDummy
+				[1] = workspace:FindFirstChild("Creus, Grand Solar Knight").Humanoid,
 				[2] = 3000
 			}
 		}
