@@ -1190,7 +1190,7 @@ Paladin.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("The Paladin").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1204,7 +1204,7 @@ Ripper.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("The Ripper").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1218,7 +1218,7 @@ Rain.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Rain").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1232,7 +1232,7 @@ Controller.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("The Controller").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1246,7 +1246,7 @@ Starfarer.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Starfarer").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1260,7 +1260,7 @@ Basilisk.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Basilisk").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1274,7 +1274,7 @@ Katharos.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Katharos, The Pure").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1288,7 +1288,7 @@ Virtue.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Virtue, Disciple of Heaven").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1302,7 +1302,7 @@ Uriel.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Uriel, Gatekeeper of Heaven").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1316,7 +1316,7 @@ Benedictus.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Benedictus, Avatar of Luminosity").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1330,7 +1330,7 @@ Astaroth.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Atrocitus, The Corrupted").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1344,7 +1344,7 @@ Beelzebub.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Beelzebub, The Beast of Gluttony").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 
 			}
 		}
@@ -1359,7 +1359,7 @@ Belial.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Belial, Envoy of Hell").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1373,7 +1373,7 @@ Atrocitus.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Astaroth, Monarch of Darkness").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1387,7 +1387,7 @@ SeaSerpent.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Sea Serpent").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1415,7 +1415,7 @@ Squilla.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Squilla, The Island Buster").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1429,7 +1429,7 @@ Okeania.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Okeania, The Ocean's Authority").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1443,7 +1443,7 @@ TSUBOL.MouseButton1Click:Connect(function()
 			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Tsubolasta2").Humanoid,
-				[2] = 3000,
+				[2] = 3000
 			}
 		}
 
@@ -1624,8 +1624,8 @@ Creus.MouseButton1Click:Connect(function()
 		local args = {
 			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Creus, Grand Solar Knight").Humanoid,
-				[2] = 3000,
+				[1] = workspace.TrainingDummy
+				[2] = 3000
 			}
 		}
 
