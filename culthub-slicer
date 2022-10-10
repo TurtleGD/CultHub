@@ -1259,7 +1259,7 @@ Basilisk.MouseButton1Click:Connect(function()
 		local args = {
 			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Basilisk"),
+				[1] = workspace.Basilisk,
 				[2] = 3000
 			}
 		}
