@@ -65,7 +65,7 @@ local AirCannon = Instance.new("ImageButton")
 local MegaBossFrame = Instance.new("Frame")
 local Gilgamesh = Instance.new("TextButton")
 local Arbiter = Instance.new("TextButton")
-local Alrasid = Instance.new("TextButton")
+local = Instance.new("TextButton")
 local Praetor = Instance.new("TextButton")
 local _10MB = Instance.new("TextButton")
 local _16MB = Instance.new("TextButton")
@@ -1472,7 +1472,7 @@ end)
 Gilgamesh.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Gilgamesh, the Consumer of Reality"),
 				[2] = 3000
@@ -1486,7 +1486,7 @@ end)
 Alrasid.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("Alrasid, Archbishop of the Equinox"),
 				[2] = 3000
@@ -1500,7 +1500,7 @@ end)
 Arbiter.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
 				[1] = workspace:FindFirstChild("The Arbiter"),
 				[2] = 3000
