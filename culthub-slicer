@@ -65,7 +65,7 @@ local AirCannon = Instance.new("ImageButton")
 local MegaBossFrame = Instance.new("Frame")
 local Gilgamesh = Instance.new("TextButton")
 local Arbiter = Instance.new("TextButton")
-local = Instance.new("TextButton")
+local Alrasid = Instance.new("TextButton")
 local Praetor = Instance.new("TextButton")
 local _10MB = Instance.new("TextButton")
 local _16MB = Instance.new("TextButton")
@@ -1187,285 +1187,266 @@ end)
 Paladin.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("The Paladin").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("The Paladin"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Ripper.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("The Ripper").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("The Ripper"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Rain.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Rain").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Rain"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Controller.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("The Controller").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("The Controller"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Starfarer.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Starfarer").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Starfarer"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Basilisk.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Basilisk").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Basilisk"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Katharos.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Katharos, The Pure").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Katharos, The Pure"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Virtue.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Virtue, Disciple of Heaven").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Virtue, Disciple of Heaven"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Uriel.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Uriel, Gatekeeper of Heaven").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Uriel, Gatekeeper of Heaven"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Benedictus.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Benedictus, Avatar of Luminosity").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Benedictus, Avatar of Luminosity"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Astaroth.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Atrocitus, The Corrupted").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Atrocitus, The Corrupted"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Beelzebub.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Beelzebub, The Beast of Gluttony").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Beelzebub, The Beast of Gluttony"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Belial.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Belial, Envoy of Hell").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Belial, Envoy of Hell"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Atrocitus.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Astaroth, Monarch of Darkness").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Astaroth, Monarch of Darkness"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 SeaSerpent.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Sea Serpent").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Sea Serpent"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Chirurgia.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Chirurgia, The Raging Tide").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Chirurgia, The Raging Tide"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Squilla.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Squilla, The Island Buster").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Squilla, The Island Buster"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Okeania.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Okeania, The Ocean's Authority").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Okeania, The Ocean's Authority"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 TSUBOL.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Tsubolasta2").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Tsubolasta2"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
@@ -1514,149 +1495,139 @@ end)
 Praetor.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Equinox Praetor").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Equinox Praetor"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Hydra.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Hydra").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Hydra"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Leviathan.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Leviathan").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Leviathan"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Storm.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Eye of the Storm").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Eye of the Storm"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Raito.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Raito").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Raito"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Hyoga.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Hyoga").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Hyoga"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Atlas.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Atlas").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Atlas"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Avarice.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Avatar of Avarice").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Avatar of Avarice"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 ARES.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("A.R.E.S.").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("A.R.E.S."),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
 
 Creus.MouseButton1Click:Connect(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		local args = {
-			[1] = "hit",
+			[1] = "sow",
 			[2] = {
-				[1] = workspace:FindFirstChild("Creus, Grand Solar Knight").Humanoid,
-				[2] = 900,
-				[3] = false
+				[1] = workspace:FindFirstChild("Creus, Grand Solar Knight"),
+				[2] = 3000
 			}
 		}
 
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Crossbow").RemoteFunction:InvokeServer(unpack(args))
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("Equinox Slicer").RemoteFunction:InvokeServer(unpack(args))
 	end
 end)
